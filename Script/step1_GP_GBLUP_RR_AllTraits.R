@@ -19,7 +19,8 @@ x <- t(gt.score)
 n.fold = 10
 # set number of repeat
 rep = 10
-#make directory for GBLUP(GAUSS)
+#make directory for model
+#dir.create(path="GP")
 dir.create(path="GP/GBLUP(RR)")
 model = print(paste("GBLUP(RR)")) ##Caution!
 
